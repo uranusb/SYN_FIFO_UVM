@@ -2,12 +2,10 @@
 DUT:
 
 A basic synchronous FIFO (First-In-First-Out).
-Size: Width 8 * Depth 16
+Size: Width 8 * Depth 16 
 
-
-
-
-
+<br />
+<br />
 
 Testbench:
 
