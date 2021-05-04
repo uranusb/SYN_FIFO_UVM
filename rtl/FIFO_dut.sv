@@ -9,8 +9,7 @@ module SYN_FIFO(clk, reset, data_in, wr, rd, full, empty, data_out);
   reg [ADDRESS-1:0] wr_ptr, rd_ptr;
   reg [WIDTH-1:0] memory [DEPTH-1:0];
   reg [ADDRESS-1:0] cur_ptr;
-  
-  
+ 
   assign full = (cur_ptr == 'b1111);
   assign empty = (cur_ptr == 'b0000);
   
