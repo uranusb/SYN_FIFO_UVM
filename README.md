@@ -6,6 +6,9 @@ Size: Width 8 * Depth 16
 
 
 
+
+
+
 Testbench:
 
 Tested on Synopsys VCS.
