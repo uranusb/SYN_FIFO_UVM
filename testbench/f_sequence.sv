@@ -17,7 +17,6 @@ class f_sequence extends uvm_sequence#(f_sequence_item);
     repeat(16) begin
       req = f_sequence_item::type_id::create("req");
       start_item(req);
-      assert(req.randomize());
       assert(req.randomize() with {rd == 1;});
       finish_item(req);
     end
